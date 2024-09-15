@@ -47,7 +47,7 @@ func NewGoCdkStack(scope constructs.Construct, id string, props *GoCdkStackProps
 		DeployOptions: &awsapigateway.StageOptions{
 			LoggingLevel: awsapigateway.MethodLoggingLevel_INFO,
 		},
-		// CloudWatchRole: jsii.Bool(true),
+		CloudWatchRole: jsii.Bool(true),
 	})
 
 	integration := awsapigateway.NewLambdaIntegration(myFynction, nil)

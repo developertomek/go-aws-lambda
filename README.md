@@ -1,12 +1,10 @@
-# Welcome to your CDK Go project!
+# Go AWS Lambda API
 
-This is a blank project for CDK development with Go.
+A simple API for testing AWS integration with Lambda, DynamoDB, and API Gateway.
 
-The `cdk.json` file tells the CDK toolkit how to execute your app.
+## Overview
 
-## Useful commands
-
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
- * `go test`         run unit tests
+This project demonstrates a basic serverless API built with Go on AWS Lambda, integrated with:
+- **AWS Lambda** - Function execution
+- **DynamoDB** - Database storage
+- **API Gateway** - HTTP endpoint management
